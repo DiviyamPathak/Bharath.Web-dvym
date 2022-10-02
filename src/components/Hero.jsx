@@ -16,8 +16,8 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+            Welcome to <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Bharath</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-         TXT.
+         Entraprises.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         We are pioneers in train loading and unloading activities and logistics through

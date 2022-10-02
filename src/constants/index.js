@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Warehouse Management",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      " We are pioneers in train loading and unloading activities and logistics through out India.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Security Services",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    " We are pioneers in train loading and unloading activities and logistics through out India.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Manpower Solution",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    " We are pioneers in train loading and unloading activities and logistics through out India.",
   },
 ];
 
@@ -194,23 +194,29 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
-];
-
-export const clientss = [
   {
     id: "client-5",
-    logo: coinbase,
+    logo: dropbox,
   },
   {
     id: "client-6",
-    logo: coinbase,
+    logo: dropbox,
   },
   {
     id: "client-7",
-    logo: coinbase,
+    logo: airbnb,
   },
   {
     id: "client-8",
-    logo: dropbox,
+    logo: airbnb,
+  },
+  {
+    id: "client-9",
+    logo: airbnb,
+  },
+  {
+    id: "client-10",
+    logo: airbnb,
   },
 ];
+

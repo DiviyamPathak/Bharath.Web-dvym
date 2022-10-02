@@ -14,13 +14,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+        Our App is <br className="sm:block hidden" /> Under Development.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+        Bharath Entraprises has 30+ years of experience and is trusted by Hero, MG, Bajaj, Maruti Suzuki, etc.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
