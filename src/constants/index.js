@@ -1,4 +1,11 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,  } from "../assets";
+import renau from '../assets/renau.png';
+import Hyundailogo from '../assets/Hyundailogo.png'
+import kia from '../assets/ogi-kia.webp'
+import toy from '../assets/Toyota-Logo-1.png'
+import sw from '../assets/swaraj.png'
+import mahin from '../assets/mahindra.jpeg'
+import tafe from '../assets/tafe.png'
 
 export const navLinks = [
   {
@@ -196,27 +203,31 @@ export const clients = [
   },
   {
     id: "client-5",
-    logo: dropbox,
+    logo: toy,
   },
   {
     id: "client-6",
-    logo: dropbox,
+    logo: sw,
   },
   {
     id: "client-7",
-    logo: airbnb,
+    logo: mahin,
   },
   {
     id: "client-8",
-    logo: airbnb,
+    logo: renau,
   },
   {
     id: "client-9",
-    logo: airbnb,
+    logo: kia,
   },
   {
     id: "client-10",
-    logo: airbnb,
+    logo: Hyundailogo,
+  },
+  {
+    id: "client-11",
+    logo: tafe,
   },
 ];
 
