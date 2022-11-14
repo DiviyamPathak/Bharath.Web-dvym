@@ -6,7 +6,7 @@ import { bill } from "../assets";
 
 const Contact = () => {
     return (
-        <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+        <section className={`${styles.flexCenter}  ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
             <div>
                 <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
                     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
