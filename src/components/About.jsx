@@ -3,12 +3,14 @@ import styles from "../style";
 import { logo } from "../assets";
 import { robot } from "../assets";
 import { bill } from "../assets";
-import {Footer} from "../components";
+import {Hero, Stats, Footer} from "../components";
 
-const Contact = () => {
+const About = () => {
     return (
         <div className={`${styles.flexCenter}  ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow bg-primary w-full overflow-hidden`}>
             <div>
+            <Hero />
+            <Stats />
                 <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
                     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
                         <div className="flex-[1] flex flex-col justify-start mr-10">
@@ -35,7 +37,7 @@ const Contact = () => {
                                 <ul className="list-none mt-2 mb-4">
 
                                     <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
-                                        abcd@gmil.com
+                                        bharath@gmil.com
                                     </li>
                                 </ul>
                                 <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
@@ -79,4 +81,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default About
