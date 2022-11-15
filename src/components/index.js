@@ -11,6 +11,8 @@ import Hero from "./Hero";
 import Contact from "./Contact";
 import Services from "./Services";
 import About from "./About";
+import Heroabout from "./Heroabout";
+// import Contactbtn from "./Contactbtn";
 
 export {
   Navbar,
@@ -26,4 +28,6 @@ export {
   Contact,
   Services,
   About,
+  Heroabout,
+  // Contactbtn
 };

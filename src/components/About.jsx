@@ -3,20 +3,20 @@ import styles from "../style";
 import { logo } from "../assets";
 import { robot } from "../assets";
 import { bill } from "../assets";
-import {Hero, Stats, Footer} from "../components";
+import {Heroabout, Stats,CTA, Footer} from "../components";
 
 const About = () => {
     return (
         <div className={`${styles.flexCenter}  ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow bg-primary w-full overflow-hidden`}>
             <div>
-            <Hero />
+            <Heroabout />
             <Stats />
                 <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
                     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
                         <div className="flex-[1] flex flex-col justify-start mr-10">
                             <img
                                 src={logo}
-                                alt="hoobank"
+                                alt="Bharath Entrprises"
                                 className="w-[266px] h-[72.14px] object-contain"
                             />
 
@@ -70,9 +70,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <div className='flex justify-center'>
-                    <img src={robot} alt="billing" className=" w-[50%] h-[25%] relative z-[5]" />
-                </div>
+                <CTA /> 
                 <Footer />
             </div >
             

@@ -19,7 +19,7 @@ const Navbar = () => {
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`${nav.id==="Services"||nav.id==="contacts" ? `${nav.id}` : `#${nav.id}` }`}>{nav.title}</a>
+            <a href={`${nav.id==="Services"||nav.id==="contacts"||nav.id==="About" ? `${nav.id}` : `#${nav.id}` }`}>{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -44,7 +44,7 @@ const Navbar = () => {
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`${nav.id==="Services"||nav.id==="contacts" ? `${nav.id}` : `#${nav.id}` }`}>{nav.title}</a>
+                <a href={`${nav.id==="Services"||nav.id==="contacts"||nav.id==="About" ? `${nav.id}` : `#${nav.id}` }`}>{nav.title}</a>
                 
               </li>
               
