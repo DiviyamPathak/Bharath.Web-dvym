@@ -35,7 +35,7 @@ const Contact = () => {
                                 <ul className="list-none mt-2 mb-4">
 
                                     <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
-                                        abcd@gmil.com
+                                    bharathbabuks99@yahoo.co.in
                                     </li>
                                 </ul>
                                 <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
@@ -44,7 +44,7 @@ const Contact = () => {
                                 <ul className="list-none mt-4 mb-4">
 
                                     <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
-                                        +91 69 696 69 69
+                                    +91 9845253700
                                     </li>
                                 </ul>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                             Location 
                         </p>
                         <p className="font-poppins float-right font-normal text-center text-[25px] leading-[27px] text-white">
-                             Bengaluru,Karnatka 560024
+                        Bharath Enterprises 1231 near railway station, Doddaballpur,Karnatka-561203
                         </p>
 
                         <div className="flex  md:mt-0 mt-6">

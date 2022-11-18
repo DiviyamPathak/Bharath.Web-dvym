@@ -37,7 +37,7 @@ const Services = () => {
                                 <ul className="list-none mt-2 mb-4">
 
                                     <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
-                                        abcd@gmil.com
+                                    bharathbabuks99@yahoo.co.in
                                     </li>
                                 </ul>
                                 <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
@@ -46,7 +46,7 @@ const Services = () => {
                                 <ul className="list-none mt-4 mb-4">
 
                                     <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
-                                        +91 69 696 69 69
+                                    +91 9845253700
                                     </li>
                                 </ul>
 
